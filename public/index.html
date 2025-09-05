@@ -37,13 +37,23 @@
 </head>
 <body>
     <section>
-        <nav class="flex justify-between justify-center items-center fixed w-full bg-bg_main/60 backdrop-blur-lg  h-[4.5rem] backdrop-opacity-10">
+        <nav class="flex justify-between justify-center items-center gap-4 fixed w-screen lg:w-full bg-bg_main/60 backdrop-blur-lg  h-[4.5rem] backdrop-opacity-10">
            
             <div class="flex flex-row justify-center items-center gap-[4rem]">
-                <h1 class="flex justify-center items-center w-24 h-16 text-montserrat 
-                text-3xl text-orange font-extrabold pl-48"> SOAD </h1>
+                <h1 class="flex justify-center items-center text-montserrat 
+                text-3xl text-orange font-extrabold pl-12 md:pl-12 lg:pl-12"> SOAD </h1>
             </div>
-                <div class="flex flex-row justify-center items-center gap-[2rem] pr-20">
+            <button id="menu-btn" class="block md:hidden focus:outline-none text-white pr-12">
+                    <!-- Ícone de três linhas -->
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                    </button>
+                <div class="flex flex-row justify-center items-center gap-[2rem] px-0 lg:pr-20 flex flex-row font-mont font-bold text-[1rem] gap-5 text-green-100 hidden md:flex 
+                    flex-col md:flex-row gap-4 absolute md:static top-16 left-0 w-full md:w-auto bg-green-100 
+                    md:bg-transparent p-4 md:p-0 transition-all duration-300 ease-in-out">
                 <div class="flex flex-row justify-center items-center rounded-md bg-orange w-[6.5rem] h-[2.5rem]">
                     <a href="#index.html" class="flex flex-row items-center gap-2 font-semibold text-oswald text-white text-semibold text-[17px]">
                         <svg class="size-5 fill-none stroke-current">
@@ -80,8 +90,8 @@
                         Discografia</a>
                 </div>
                 <div class="flex justify-center items-center cursor-pointer transition delay-150 duration-300 ease-in-out hover:bg-orange_hover hover:text-dark_orange cursor-pointer rounded-md w-[7rem] h-[2.5rem]">
-                    <a href="#links" class="flex flex-row items-center gap-2 font-semibold text-oswald text-gray-300 text-[17px] hover:text-dark_orange cursor-pointer">
-                        <svg class="size-5 fill-none cursor-pointer stroke-current hover:stroke-dark_orange">
+                    <a href="#links" class="flex flex-row items-center transition delay-150 duration-300 ease-in-out gap-2 font-semibold text-oswald text-gray-300 text-[17px] hover:text-dark_orange cursor-pointer">
+                        <svg class="size-5 transition delay-150 duration-300 ease-in-out hover:stroke-dark_orange cursor-pointer"  fill="none" stroke="currentColor">
                             <use xlink:href="./assets/new-window.svg"></use>
                         </svg>
                         Links</a>
@@ -89,49 +99,61 @@
                 </div>
             </div>
         </nav>
-        <main class="flex flex-col justify-center items-center w-screen h-full bg-bg_main">
-            <div class="h-screen w-full filter  bg-[linear-gradient(135deg,rgba(0,0,0,1)_0%,rgba(0,0,0,1)_25%,rgba(191,38,17,0.2)_50%,rgba(0,0,0,1)_75%,rgba(0,0,0,1)_100%)]">
+        <main class="flex flex-col justify-center items-center w-full min-h-screen bg-bg_main">
+            <div class="min-h-screen w-full bg-[linear-gradient(135deg,rgba(0,0,0,1)_0%,rgba(0,0,0,1)_25%,rgba(191,38,17,0.2)_50%,rgba(0,0,0,1)_75%,rgba(0,0,0,1)_100%)]">
 
-            <div class="flex flex-col justify-center items-center">
-                <div class="flex flex-col items-center pt-20 pb-[1rem]">
-                    <h1 class="text-white text-9xl font-bold">SYSTEM <strong class="text-light_orange"><br>OF A <br>DOWN</strong></h1>
+                <div class="flex flex-col justify-center items-center px-4 text-center">
+                <div class="pt-20 pb-4">
+                    <h1 class="text-white text-4xl sm:text-6xl lg:text-9xl font-bold leading-tight">
+                    SYSTEM <strong class="text-light_orange block">OF A DOWN</strong>
+                    </h1>
                 </div>
 
-                <p class="text-white font-open_sans text-2xl font-semibold">Uma homenagem à banda que revolucionou o metal <br>alternativo com sua música única e mensagem poderosa</p>
-            </div>
+                <p class="text-white font-open_sans text-base sm:text-xl lg:text-2xl font-semibold max-w-3xl">
+                    Uma homenagem à banda que revolucionou o metal alternativo com sua música única e mensagem poderosa
+                </p>
+                </div>
 
-            <div class="flex flex-row justify-center items-center gap-8 pt-6">
-                <a href="#explorar" class="bg-orange flex flex-row items-center justify-center gap-2 text-white font-semibold text-[18px] py-2 px-4 rounded-md w-[14rem] hover:bg-dark_orange hover:scale-110 transition delay-150 duration-300 ease-in-out">
-                    <svg class="size-6 fill-none stroke-current">
-                        <use xlink:href="./assets/play-arrow.svg"></use>
+                <div class="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-8 pt-6 px-4">
+                <a href="#explorar"
+                    class="bg-orange flex flex-row items-center justify-center gap-2 text-white font-semibold text-base sm:text-lg py-2 px-4 rounded-md w-full sm:w-[14rem] hover:bg-dark_orange hover:scale-110 transition duration-300 ease-in-out">
+                    <svg class="size-6" fill="none" stroke="current">
+                    <use xlink:href="./assets/play-arrow.svg"></use>
                     </svg>
-                    Explorar a Banda</a>
-                <a href="#ouvir" class="flex flex-row items-center bg-white text-orange font-semibold text-[18px] py-2 px-4 rounded-md gap-2 hover:scale-110 transition delay-150 duration-300 ease-in-out">
-                    <svg class="size-6 ">
-                        <use xlink:href="./assets/volume-up.svg"></use>
+                    Explorar a Banda
+                </a>
+
+                <a href="#ouvir"
+                    class="flex flex-row items-center justify-center bg-white text-orange font-semibold text-base sm:text-lg py-2 px-4 rounded-md gap-2 w-full sm:w-[14rem] hover:scale-110 transition duration-300 ease-in-out">
+                    <svg class="size-6 hover:stroke-white" fill="none" stroke="current">
+                    <use xlink:href="./assets/volume-up.svg"></use>
                     </svg>
-                    Ouvir Agora</a>
-            </div>
-            <div class="flex flex-row justify-center items-center gap-24 pt-12 font-open_sans">
+                    Ouvir Agora
+                </a>
+                </div>
+
+                <div class="flex flex-col sm:flex-row justify-center items-center gap-8 sm:gap-24 pt-12 font-open_sans">
                 <div class="flex flex-col justify-center items-center">
-                    <h1 class="text-[2rem] text-light_orange font-extrabold">5</h1>
+                    <h1 class="text-3xl sm:text-4xl text-light_orange font-extrabold">5</h1>
                     <p class="text-gray-400">Álbuns</p>
                 </div>
                 <div class="flex flex-col justify-center items-center">
-                    <h1 class="text-[2rem] text-light_orange font-extrabold">25+</h1>
+                    <h1 class="text-3xl sm:text-4xl text-light_orange font-extrabold">25+</h1>
                     <p class="text-gray-400">Anos</p>
                 </div>
                 <div class="flex flex-col justify-center items-center">
-                    <h1 class="text-[2rem] text-light_orange font-extrabold">40M+</h1>
+                    <h1 class="text-3xl sm:text-4xl text-light_orange font-extrabold">40M+</h1>
                     <p class="text-gray-400">Vendas</p>
                 </div>
+                </div>
+
             </div>
-            </div>
-        </main>
+            </main>
+
     </section>
 
     <section>
-        <div id="app"></div> <!-- Conteúdo carregado aqui -->
+        <div id="app"></div>
 
           <script src="script.js"></script>
     </section>
