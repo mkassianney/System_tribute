@@ -15,11 +15,13 @@
       theme: {
         extend: {
           colors: {
-            primary: '#EA2F14', // azul custom
-            secondary: '#E6521F',
-            main_color:  '#000000',
-            bg_sec_color: '#0B192C',
-            dark_orange: '#bf2611'
+            orange: '#c42812', // orange
+            secondary: '#E6521F', // dark orange
+            light_orange: '#ab3e3e', // light orange
+            bg_main:  '#000000', // black
+            bg_sec: '#0B192C',
+            dark_orange: '#991e0e',
+            orange_hover: 'rgb(191, 38, 17, 0.2)'
 
           },
           fontFamily: {
@@ -34,9 +36,34 @@
   </script>
 </head>
 <body>
-    <section>
-        <div>
-              <h1>Sobre a Banda</h1>
+    <section class="w-full h-screen bg-bg_main">
+        <div class="flex  flex-col justify-center items-center gap-4 pt-16">
+              <h1 class="text-7xl text-open_sans font-extrabold text-white">SOBRE A <strong class="text-light_orange">BANDA</strong></h1>
+              <div class="w-32 h-[0.25rem] mt-4 mb-20 bg-orange"></div>
+        </div>
+        <div class="grid grid-cols-2 gap-20 px-8"> 
+          <!-- Div de textos -->
+            <div class="flex flex-col gap-6">
+              <p class="text-gray-300">System of a Down é uma banda americana de metal alternativo formada em 1994 em Los Angeles, Califórnia. Conhecidos por seu
+                 som único que combina metal pesado com elementos de música armênia tradicional, punk rock e música experimental.</p>
+                 <p class="text-gray-400">A banda ganhou reconhecimento mundial com letras politicamente carregadas e performances energéticas que abordam
+                   questões sociais, políticas e humanitárias, especialmente relacionadas ao genocídio armênio e à política americana.</p>
+                   <p class="text-gray-400">Com cinco álbuns de estúdio e mais de 40 milhões de cópias vendidas globalmente, System of a Down se estabeleceu como uma das bandas mais influentes do metal moderno.</p>
+            </div>
+            <!-- Div de balões -->
+            <div>
+              <div>
+                <div class="bg-orange w-14 h-14 rounded-md">
+                  <svg class="size-10 fill-none stroke-current">
+                    <use xlink:href="./assets/MIC-24.svg"></use>
+                  </svg>
+                </div>
+                <h1 class="text-white font-bold text-2xl">Som Único</h1>
+                <p class="text-gray-400">
+                  Fusão revolucionária de metal, punk e elementos da música armênia
+                </p>
+              </div>
+            </div>
         </div>
     </section>
    
