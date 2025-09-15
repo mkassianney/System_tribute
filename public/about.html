@@ -21,7 +21,8 @@
             bg_main:  '#000000', // black
             bg_sec: '#0B192C',
             dark_orange: '#991e0e',
-            orange_hover: 'rgb(191, 38, 17, 0.2)'
+            orange_hover: 'rgb(191, 38, 17, 0.2)',
+            dark_blue: '#06060a'
 
           },
           fontFamily: {
@@ -36,35 +37,57 @@
   </script>
 </head>
 <body>
-    <section class="w-full h-screen bg-bg_main">
-        <div class="flex  flex-col justify-center items-center gap-4 pt-16">
-              <h1 class="text-7xl text-open_sans font-extrabold text-white">SOBRE A <strong class="text-light_orange">BANDA</strong></h1>
+    <section class="w-full min-h-screen bg-bg_main">
+        <div class="flex flex-col justify-center items-center gap-4 pt-16">
+              <h1 class="flex flex-col justify-center items-center text-6xl sm:text-6xl md:text-7xl lg:text-7xl text-open_sans font-extrabold text-white">SOBRE A <strong class="text-light_orange">BANDA</strong></h1>
               <div class="w-32 h-[0.25rem] mt-4 mb-20 bg-orange"></div>
         </div>
-        <div class="grid grid-cols-2 gap-20 px-8"> 
+        <div class="flex flex-col justify-center items-center md:grid md:grid-cols-2"> 
           <!-- Div de textos -->
-            <div class="flex flex-col gap-6">
-              <p class="text-gray-300">System of a Down é uma banda americana de metal alternativo formada em 1994 em Los Angeles, Califórnia. Conhecidos por seu
+            <div class="flex flex-col gap-6 m-8">
+              <p class="text-2xl text-gray-300">System of a Down é uma banda americana de metal alternativo formada em 1994 em Los Angeles, Califórnia. Conhecidos por seu
                  som único que combina metal pesado com elementos de música armênia tradicional, punk rock e música experimental.</p>
-                 <p class="text-gray-400">A banda ganhou reconhecimento mundial com letras politicamente carregadas e performances energéticas que abordam
+                 <p class="text-2xl text-gray-400">A banda ganhou reconhecimento mundial com letras politicamente carregadas e performances energéticas que abordam
                    questões sociais, políticas e humanitárias, especialmente relacionadas ao genocídio armênio e à política americana.</p>
-                   <p class="text-gray-400">Com cinco álbuns de estúdio e mais de 40 milhões de cópias vendidas globalmente, System of a Down se estabeleceu como uma das bandas mais influentes do metal moderno.</p>
+                   <p class="text-2xl text-gray-400">Com cinco álbuns de estúdio e mais de 40 milhões de cópias vendidas globalmente, System of a Down se estabeleceu como uma das bandas mais influentes do metal moderno.</p>
             </div>
             <!-- Div de balões -->
-            <div>
-              <div>
-                <div class="bg-orange w-14 h-14 rounded-md">
-                  <svg class="size-10 fill-none stroke-current">
-                    <use xlink:href="./assets/MIC-24.svg"></use>
-                  </svg>
+
+            <div class="flex flex-col gap-8 mx-4">
+                <div class="flex flex-row sm:flex-row mx-auto max-w-md overflow-hidden p-4 gap-4 border border-orange rounded-xl bg-gradient-to-r from-orange/15 to-dark_blue">
+                  <div class="flex justify-center items-center bg-orange w-24 h-12 sm:w-26 sm:h-16 rounded-md">
+                    <img src="./assets/mic-30.svg" width="34" height="34">
+                  </div>
+                  <div class="flex flex-col gap-2">
+                    <h1 class="text-xl sm:text-2xl md:text-3xl font-bold text-white">Som Único</h1>
+                    <p class="text-base sm:text-lg md:text-xl text-gray-400">
+                      Fusão revolucionária de metal, punk e elementos da música armênia
+                    </p>
+                  </div>
                 </div>
-                <h1 class="text-white font-bold text-2xl">Som Único</h1>
-                <p class="text-gray-400">
-                  Fusão revolucionária de metal, punk e elementos da música armênia
-                </p>
-              </div>
+            <div class="flex flex-row sm:flex-row mx-auto max-w-md overflow-hidden p-4 gap-4 border border-orange rounded-xl bg-gradient-to-r from-orange/15 to-dark_blue">
+                  <div class="flex justify-center items-center bg-orange w-24 h-12 sm:w-26 sm:h-16 rounded-md">
+                    <img src="./assets/globe.svg" width="34" height="34">
+                  </div>
+                  <div class="flex flex-col gap-2">
+                    <h1 class="text-xl sm:text-2xl md:text-3xl font-bold text-white">Impacto Global</h1>
+                    <p class="text-base sm:text-lg md:text-xl text-gray-400">
+                      Mais de 40 milhões de álbuns vendidos mundialmente
+                    </p>
+                  </div>
+                </div>
+            <div class="flex flex-row sm:flex-row mx-auto max-w-md overflow-hidden p-4 gap-4 border border-orange rounded-xl bg-gradient-to-r from-orange/15 to-dark_blue">
+                  <div class="flex justify-center items-center bg-orange w-24 h-12 sm:w-26 sm:h-16 rounded-md">
+                    <img src="./assets/medal.svg" width="34" height="34">
+                  </div>
+                  <div class="flex flex-col gap-2">
+                    <h1 class="text-xl sm:text-2xl md:text-3xl font-bold text-white">Reconhecimento</h1>
+                    <p class="text-base sm:text-lg md:text-xl text-gray-400">
+                      Grammy Award e múltiplas certificações platina
+                    </p>
+                  </div>
+                </div>
             </div>
-        </div>
     </section>
    
 </body>
