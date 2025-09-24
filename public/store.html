@@ -16,10 +16,8 @@
         extend: {
           colors: {
             orange: '#c42812', // orange
-            secondary: '#E6521F', // dark orange
             light_orange: '#a83838', // light orange
             bg_main:  '#000000', // black
-            bg_sec: '#0B192C',
             dark_orange: '#991e0e',
             orange_hover: 'rgb(191, 38, 17, 0.2)',
             light_blue: '#5c5ced',
@@ -27,18 +25,14 @@
             dark_blue: '#030308',
             dark_red: '#db0959',
             light_pink: '#cb67cf',
-            dark_pink: '#612157',
-            yellow: '#b55f2d',
-            dark_yellow: '#59270a',
-            light_green: '#47965f'
+            dark_pink: '#612157'
 
 
           },
           fontFamily: {
             'montserrat': ['Montserrat', 'sans-serif'],
             'oswald': ['Oswald', 'sans-serif'],
-            'open_sans': ['Open Sans', 'sans-serif'],
-            'ibm_plex_sans': ['IBM Plex Sans', 'sans-serif']
+            'open_sans': ['Open Sans', 'sans-serif']
           }
         }
       }
@@ -63,13 +57,21 @@
                 <div class="absolute top-10 right-5 w-20 h-20 bg-light_orange/20 rounded-full blur-xl"></div>
       
                 <div class="flex justify-center items-center bg-gradient-to-br from-light_orange to-dark_orange w-16 h-16 sm:w-16 sm:h-16 md:w-16 md:h-16 rounded-2xl flex-shrink-0 group-hover:scale-110 transition delay-150 duration-300 ease-in-out z-10">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe-icon lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe-icon lucide-globe">
+                        <circle cx="12" cy="12" r="10"/>
+                        <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+                        <path d="M2 12h20"/>
+                    </svg>
                 </div>
                 
                 <div class="flex flex-col gap-[1.5rem] z-10">
                     <div class="flex flex-row items-center gap-2">
                         <h2 class="text-white text-2xl font-extrabold group-hover:text-light_orange">Site Oficial</h2>
-                        <svg class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-light_orange" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ab3e3e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-arrow-out-up-right-icon lucide-square-arrow-out-up-right"><path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/><path d="m21 3-9 9"/><path d="M15 3h6v6"/></svg>
+                            <svg class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-light_orange" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ab3e3e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+                            class="lucide lucide-square-arrow-out-up-right-icon lucide-square-arrow-out-up-right">
+                            <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>
+                            <path d="m21 3-9 9"/><path d="M15 3h6v6"/>
+                         </svg>
                     </div>
                     <p class="text-gray-400 text-xl sm:text-lg lg:text-base text-wrap">
                         Acesse o site oficial da banda para novidades e tour dates
@@ -87,13 +89,20 @@
                 
 
                 <div class="flex justify-center items-center bg-dark_orange w-16 h-16 sm:w-16 sm:h-16 md:w-16 md:h-16 rounded-2xl flex-shrink-0 group-hover:scale-110 transition delay-150 duration-300 ease-in-out z-10">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-youtube-icon lucide-youtube"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-youtube-icon lucide-youtube">
+                        <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/>
+                        <path d="m10 15 5-3-5-3z"/>
+                    </svg>
                 </div>
                 
                 <div class="flex flex-col gap-[1.5rem] z-10">
                     <div class="flex flex-row items-center gap-2">
                         <h2 class="text-white text-2xl font-extrabold group-hover:text-light_orange">Youtube</h2>
-                        <svg class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-light_orange" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ab3e3e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-arrow-out-up-right-icon lucide-square-arrow-out-up-right"><path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/><path d="m21 3-9 9"/><path d="M15 3h6v6"/></svg>
+                        <svg class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-light_orange" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ab3e3e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-arrow-out-up-right-icon lucide-square-arrow-out-up-right">
+                            <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>
+                            <path d="m21 3-9 9"/>
+                            <path d="M15 3h6v6"/>
+                        </svg>
                     </div>
                     <p class="text-gray-400 text-xl sm:text-lg lg:text-base text-wrap">
                         Assista aos clipes oficiais e performances ao vivo
@@ -110,13 +119,21 @@
                 <div class="absolute top-10 right-5 w-20 h-20 bg-light_orange/20 rounded-full blur-xl"></div>
                 
                 <div class="flex justify-center items-center bg-gradient-to-br from-dark_red to-dark_orange w-16 h-16 sm:w-16 sm:h-16 md:w-16 md:h-16 rounded-2xl flex-shrink-0 group-hover:scale-110 transition delay-150 duration-300 ease-in-out z-10">
-                   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                        <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+                    </svg>
                 </div>
                 
                 <div class="flex flex-col gap-[1.5rem] z-10">
                     <div class="flex flex-row items-center gap-2">
                         <h2 class="text-white text-2xl font-extrabold group-hover:text-light_orange">Instagram</h2>
-                        <svg class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-light_orange" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ab3e3e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-arrow-out-up-right-icon lucide-square-arrow-out-up-right"><path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/><path d="m21 3-9 9"/><path d="M15 3h6v6"/></svg>
+                        <svg class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-light_orange" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ab3e3e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-arrow-out-up-right-icon lucide-square-arrow-out-up-right">
+                            <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>
+                            <path d="m21 3-9 9"/>
+                            <path d="M15 3h6v6"/>
+                        </svg>
                     </div>
                     <p class="text-gray-400 text-xl sm:text-lg lg:text-base text-wrap">
                         Siga para fotos exclusivas e bastidores
@@ -133,13 +150,21 @@
                 <div class="absolute top-10 right-5 w-20 h-20 bg-light_orange/20 rounded-full blur-xl"></div>
                 
                 <div class="flex justify-center items-center bg-gradient-to-br from-light_green to-dark_orange w-16 h-16 sm:w-16 sm:h-16 md:w-16 md:h-16 rounded-2xl flex-shrink-0 group-hover:scale-110 transition delay-150 duration-300 ease-in-out z-10">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-music-icon lucide-music"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-music-icon lucide-music">
+                        <path d="M9 18V5l12-2v13"/>
+                        <circle cx="6" cy="18" r="3"/>
+                        <circle cx="18" cy="16" r="3"/>
+                    </svg>
                 </div>
                 
                 <div class="flex flex-col gap-[1.5rem] z-10">
                     <div class="flex flex-row items-center gap-2">
                         <h2 class="text-white text-2xl font-extrabold group-hover:text-light_orange">Spotify</h2>
-                        <svg class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-light_orange" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ab3e3e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-arrow-out-up-right-icon lucide-square-arrow-out-up-right"><path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/><path d="m21 3-9 9"/><path d="M15 3h6v6"/></svg>
+                        <svg class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-light_orange" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ab3e3e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-arrow-out-up-right-icon lucide-square-arrow-out-up-right">
+                            <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>
+                            <path d="m21 3-9 9"/>
+                            <path d="M15 3h6v6"/>
+                        </svg>
                     </div>
                     <p class="text-gray-400 text-xl sm:text-lg lg:text-base text-wrap">
                         Ouça toda a discografia da banda
@@ -156,13 +181,19 @@
                 <div class="absolute top-10 right-5 w-20 h-20 bg-light_orange/20 rounded-full blur-xl"></div>
 
                 <div class="flex justify-center items-center bg-gradient-to-br from-light_blue via-light_pink to-dark_red w-16 h-16 sm:w-16 sm:h-16 md:w-16 md:h-16 rounded-2xl flex-shrink-0 group-hover:scale-110 transition delay-150 duration-300 ease-in-out z-10">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter-icon lucide-twitter"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter-icon lucide-twitter">
+                    <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/>
+                </svg>
                 </div>
                 
                 <div class="flex flex-col gap-[1.5rem] z-10">
                     <div class="flex flex-row items-center gap-2">
                         <h2 class="text-white text-2xl font-extrabold group-hover:text-light_orange">Twitter (X)</h2>
-                        <svg class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-light_orange" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ab3e3e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-arrow-out-up-right-icon lucide-square-arrow-out-up-right"><path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/><path d="m21 3-9 9"/><path d="M15 3h6v6"/></svg>
+                        <svg class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-light_orange" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ab3e3e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-arrow-out-up-right-icon lucide-square-arrow-out-up-right">
+                            <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>
+                            <path d="m21 3-9 9"/>
+                            <path d="M15 3h6v6"/>
+                        </svg>
                     </div>
                     
                     <p class="text-gray-400 text-xl sm:text-lg lg:text-base text-wrap">
