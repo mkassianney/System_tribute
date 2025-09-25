@@ -13,6 +13,19 @@
     });
   });
 
-  // Carregar página inicial
-  loadPage('index');
+document.addEventListener("DOMContentLoaded", async () => {
+  const pages = ["about.html", "history.html", "members.html", "discography.html", "store.html"];
+  const content = document.getElementById("content");
 
+  for (const page of pages) {
+    try {
+      const response = await fetch(page);
+      const html = await response.text();
+      const section = document.createElement("section");
+      section.innerHTML = html;
+      content.appendChild(section);
+    } catch (err) {
+      console.error("Erro ao carregar:", page, err);
+    }
+  }
+});
