@@ -1,12 +1,12 @@
 <body>
-    <section class="w-full min-h-screen bg-bg_main">
-        <div class="flex flex-col justify-center items-center gap-4 pt-16">
-              <h1 class="flex flex-col justify-center items-center text-6xl sm:text-6xl md:text-7xl lg:text-7xl text-open_sans font-extrabold text-white">SOBRE A <strong class="text-light_orange">BANDA</strong></h1>
+    <section id="about" class="w-full min-h-screen bg-bg_main py-20">
+        <div class="flex flex-col justify-center items-center gap-4">
+              <h1 class="flex md:flex-col gap-2 md:gap-0 justify-center items-center text-4xl sm:text-6xl md:text-7xl lg:text-7xl text-open_sans font-extrabold text-white">SOBRE A <strong class="text-light_orange"> BANDA</strong></h1>
               <div class="w-32 h-[0.25rem] mt-4 mb-12 bg-orange"></div>
         </div>
         <div class="flex flex-col justify-center items-center md:grid md:grid-cols-2 w-fit h-fit sm:mx-12 md:mx-16 lg:mx-20"> 
           
-            <div class="flex flex-col justify-center items-center pl-8 gap-6 m-8 mx-auto">
+            <div class="flex flex-col justify-center items-center p-6 md:p-0 md:pl-8 gap-6 m-8 mx-auto">
               <p class="text-xl text-gray-300">System of a Down é uma banda americana de metal alternativo formada em 1994 em Los Angeles, Califórnia. Conhecidos por seu
                  som único que combina metal pesado com elementos de música armênia tradicional, punk rock e música experimental.</p>
                  <p class="text-xl text-gray-400">A banda ganhou reconhecimento mundial com letras politicamente carregadas e performances energéticas que abordam
@@ -17,7 +17,11 @@
             <div class="flex flex-col gap-8 mx-4">
                 <div class="flex flex-row sm:flex-row mx-auto sm:w-[90%] md:w-[90%] lg:w-[90%] overflow-hidden p-4 gap-4 border border-orange/10 rounded-xl bg-gradient-to-r from-orange/15 to-dark_blue group hover:scale-105 transition delay-150 duration-300 ease-in-out hover:border-orange">
                   <div class="flex justify-center items-center bg-orange w-12 h-12 sm:w-16 sm:h-16 md:w-12 md:h-12 rounded-md flex-shrink-0 group-hover:bg-light_orange">
-                    <img src="./assets/mic-30.svg" width="30" height="30">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mic-icon lucide-mic">
+                      <path d="M12 19v3"/>
+                      <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+                      <rect x="9" y="2" width="6" height="13" rx="3"/>
+                    </svg>
                   </div>
                   <div class="flex flex-col gap-2">
                     <h1 class="text-xl sm:text-2xl md:text-2xl font-bold text-white">Som Único</h1>
@@ -28,7 +32,11 @@
                 </div>
                 <div class="flex flex-row sm:flex-row mx-auto sm:w-[90%] md:w-[90%] lg:w-[90%] overflow-hidden p-4 gap-4 border border-orange/10 rounded-xl bg-gradient-to-r from-orange/15 to-dark_blue group hover:scale-105 transition delay-150 duration-300 ease-in-out hover:border-orange">
                   <div class="flex justify-center items-center bg-orange w-12 h-12 sm:w-16 sm:h-16 md:w-12 md:h-12 rounded-md flex-shrink-0 group-hover:bg-light_orange">
-                    <img src="./assets/globe.svg" width="30" height="30">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe-icon lucide-globe">
+                      <circle cx="12" cy="12" r="10"/>
+                      <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+                      <path d="M2 12h20"/>
+                    </svg>
                   </div>
                   <div class="flex flex-col gap-2">
                     <h1 class="text-xl sm:text-2xl md:text-2xl font-bold text-white">Impacto Global</h1>
@@ -39,7 +47,10 @@
                 </div>
                <div class="flex flex-row sm:flex-row mx-auto sm:w-[90%] md:w-[90%] lg:w-[90%] overflow-hidden p-4 gap-4 border border-orange/10 rounded-xl bg-gradient-to-r from-orange/15 to-dark_blue group hover:scale-105 transition delay-150 duration-300 ease-in-out hover:border-orange">
                   <div class="flex justify-center items-center bg-orange w-12 h-12 sm:w-16 sm:h-16 md:w-12 md:h-12 rounded-md flex-shrink-0 group-hover:bg-light_orange">
-                    <img src="./assets/medal.svg" width="30" height="30">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-award-icon lucide-award">
+                      <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"/>
+                      <circle cx="12" cy="8" r="6"/>
+                    </svg>
                   </div>
                   <div class="flex flex-col gap-2">
                     <h1 class="text-xl sm:text-2xl md:text-2xl font-bold text-white">Reconhecimento</h1>
@@ -49,6 +60,7 @@
                   </div>
                 </div>
             </div>
+        </div>
     </section>
    
 </body>
