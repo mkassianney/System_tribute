@@ -12,7 +12,7 @@ Este projeto é um site de tributo à banda System of a Down, criado com o objet
 
 ## 📝 Funcionalidades
 
-M- enu de navegação fixo e responsivo – Com links para seções como Início, Sobre, História, Integrantes, Discografia e Loja.
+- Menu de navegação fixo e responsivo – Com links para seções como Início, Sobre, História, Integrantes, Discografia e Loja.
 
 - Scroll suave – Navegação entre seções com animação de transição.
 
@@ -56,7 +56,7 @@ M- enu de navegação fixo e responsivo – Com links para seções como Início
 
 3. Navegue entre as seções usando o menu ou os botões principais.
 
-## Estilo e Inspiração
+## 🎨 Estilo e Inspiração
 
 - O projeto se inspira no visual intenso e contrastante do rock alternativo, com:
 
@@ -66,11 +66,11 @@ M- enu de navegação fixo e responsivo – Com links para seções como Início
 
 - Elementos animados que reforçam a energia da banda.
 
-## Contribuições
+## 👥 Contribuições
 
 Este projeto é pessoal, mas sugestões de melhoria ou adição de recursos são bem-vindas!
 
-## Licença
+## 📑 Licença
 
 Este projeto é livre para estudo e uso pessoal, não sendo uma distribuição comercial da banda.
 
@@ -131,7 +131,7 @@ This project was created to immortalize a bit of my passion for rock, and especi
 
 3. Navigate through the sections using the menu or main buttons.
 
-## Style and Inspiration
+## 🎨 Style and Inspiration
 
 - The project is inspired by the intense and contrasting visual style of alternative rock, featuring:
 
@@ -141,10 +141,10 @@ This project was created to immortalize a bit of my passion for rock, and especi
 
 - Animated elements that reinforce the band's energy.
 
-## Contributions
+## 👥 Contributions
 
 This is a personal project, but suggestions for improvements or additional features are welcome!
 
-## License
+## 📑 License
 
 This project is free for study and personal use, and is not a commercial distribution of the band.
